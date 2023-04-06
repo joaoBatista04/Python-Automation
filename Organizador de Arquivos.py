@@ -23,4 +23,3 @@ for arquivo in lista_arquivos:
 
     #O arquivo eh movido para o diretorio nomeado com a respectiva data
     shutil.move(f"{caminho}\{arquivo}", f"{caminho}\{dataAtual}")
-    
